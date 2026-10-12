@@ -36,3 +36,7 @@ features = [
 ]
 ```
 
+## 配布
+
+デフォルトの`.github/workflow/docs.yml`で動くから`repo/setting/pages`のsourceをgithub actionsにする。
+
