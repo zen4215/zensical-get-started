@@ -1,0 +1,22 @@
+[project]
+name = "zensical-get-started"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "zen4215", email = "44k1.373@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+zensical-get-started = "zensical_get_started:main"
+
+[build-system]
+requires = ["uv_build>=0.13.0,<0.14.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "zensical>=0.0.69",
+]
